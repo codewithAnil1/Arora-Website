@@ -1,0 +1,189 @@
+
+HTML,body{
+    padding: 0;
+    margin:0;
+    font-family:"Roboto Black";
+    
+
+}
+.Logo{
+    height: 4rem;
+    margin-left: 4rem;
+}
+
+.MainContaner{
+   display:flex ;
+   justify-content: space-between;
+   align-items: center;
+   padding:0 2rem;
+   margin-bottom: 1rem;
+   
+   
+   
+}
+
+.ListDiv{
+    display: flex;
+    width: 43%;
+    height: 3rem;
+    margin-left: 22%;
+    align-content: center;
+    background-color: #eae4e44f;
+    box-shadow: 0 4px 4px #0000001a;
+    border-radius: 24px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+ .ListDiv ul{
+    display: flex;
+    margin-top: 4rem;
+    bottom: 0;
+    list-style: none;
+    justify-content: space-around;
+    width: 100%;
+    padding-right: 1rem;
+}
+.ListDiv ul li{
+    font-size: 0.8rem;
+    font-weight: 600;
+    height: 4rem;
+
+    
+   
+}
+
+
+.ContactBtn{
+    height: 3.3rem;
+    width: 9rem;
+    border-radius: 15px;
+    padding: 0rem;
+    background-color: #d211ede3;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 1.rem;
+    /* padding-right: 2rem; */
+    margin-right: 5rem;
+}
+.ContactBtn:hover{
+    transition: 1s;
+    background-color: rgb(214, 110, 24);
+    color: azure;
+}
+ul li:hover {
+    /* background-color: #d1d0d06c;
+    transition: 0.5s;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor:pointer; */
+    
+   
+
+  }
+  .menuIcon{
+    height: 3rem;
+    font-size: 2rem;
+    
+  }
+  .close{
+    transition: 3s ease;
+  }
+  @media  (max-width: 1280px) {
+    .ListDiv{
+        display: flex;
+        width: 48%;
+        height: 3rem;
+        margin-left: 2%;
+        align-content: center;
+        background-color: #eae4e44f;
+        box-shadow: 0 4px 4px #0000001a;
+        border-radius: 24px;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+   @media  (min-width: 1000px) {
+    .menuIcon{
+        display:none;
+    }
+   
+    
+  }
+    
+  @media  (max-width: 1000px) {
+    .ListDiv{
+        position: absolute;
+        z-index: 1000;
+        left: 0;
+        top: 5rem;
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        height: 100vh;
+        margin-left: 0;
+        align-content: center;
+        background-color: #ecececeb;
+        box-shadow: 0 4px 4px #0000001a;
+        border-radius: 0;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+    .ListDiv ul{
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+        margin-top: 4rem;
+        bottom: 0;
+        list-style: none;
+        justify-content: space-around;
+        width: 100%;
+        padding-right: 1rem;
+    }
+    .ListDiv ul li{
+        font-size: 0.8rem;
+        font-weight: 600;
+        height: 4rem;
+       width: 100%;
+       background: white;
+       margin: 5px;
+       border-radius: 20px;
+        align-content: center;
+        align-content: center;
+       
+    }
+    ul li:hover {
+        background-color: #d1d0d06c;
+        transition: 0.5s;
+        padding: 1rem;
+        border-radius: 10px;
+        cursor:pointer;
+        
+       
+    
+      }
+    .Logo{
+        height: 4rem;
+        margin-left: 1px;
+    }
+    .ContactBtn{
+        height: 3.3rem;
+        width: 7rem;
+        border-radius: 15px;
+        padding: 0rem;
+        background-color: #d211ede3;
+        color: white;
+        border: none;
+        font-weight: 700;
+        font-size: 1.rem;
+        /* padding-right: 2rem; */
+        margin-right: 0.1rem;
+    }
+  }
+  .ListDivA{
+    position: absolute;
+        z-index: 1000;
+        left: -10rem;
+        transition: 5s;
+  }

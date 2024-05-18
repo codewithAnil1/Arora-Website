@@ -1,0 +1,56 @@
+.cardContaner{
+  width: 92vw;
+  margin-left: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  margin-top: 8rem;
+}
+.imageCart {
+ 
+  margin: 2rem;
+    width: 250px;
+    padding: 10px;
+    height: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 11px;
+    overflow: hidden;
+    background-color: #e8e4e480;
+    border: 1px solid black;
+    margin-right: 20px;
+    transition: 0.3s all ease-in-out;
+
+ } .imagess {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .imageCart:hover{
+    transform: scale(1.1);
+  }
+
+  .textDiv {
+    padding: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .textDiv div {
+    display: flex;
+    width: 7rem;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-end;
+    align-items: center;
+  }
+  .cardContaner button{
+    width:8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    background-color: rgb(226, 17, 233);
+    border-radius: 10px;
+    border: none;
+  }

@@ -1,0 +1,45 @@
+.ComCont{
+    display:flex;
+}
+.Slider{
+    /* height: 75vh;
+    width: 70vw; */
+    /* overflow: hidden; */
+    padding: 1rem;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 1);
+    border-radius: 20px;
+    position: relative;
+    z-index: 22;
+}
+.ImageOne{
+
+height: 50px;
+}
+.beforeD{
+    position: absolute;
+    
+    top: 20rem;
+    left: 11rem;
+    z-index: 1000;
+}
+.afterD{
+    position: absolute;
+    
+    top: 20rem;
+    right: 15rem;
+    z-index: 1000;
+}
+.beforeD,.afterD{
+    background-color: rgb(237 244 250 / 53%);
+    display: flex;
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    transition:2s;
+}
+ReactCompareSliderImage{
+    height: 100px;
+}

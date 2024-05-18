@@ -1,0 +1,159 @@
+
+.carousel-indicators [data-bs-target]{
+   border-radius: 100px;
+   background-color: rgb(216, 78, 78);
+    height: 20px;
+    width:10px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: blue;
+}
+
+.image1,.image2,.image3{
+    height: 75vh;
+    width: 43vW;
+    border: 0.8rem solid transparent;
+    border-radius: 34px;
+    background-image: linear-gradient(45deg,rgba(113, 199, 233, 0.76), rgba(255, 0, 55, 0.925));
+    background-origin: border-box, padding-box, padding-box;
+    background-clip: border-box, padding-box, border-box;
+    margin-right: 5rem;
+}
+.textCon h1{
+
+    
+}
+
+.imageContener{
+   
+}
+.caraContaner{
+   background-size:  1380px 500px;
+   height: 100%;
+   width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    z-index: 44;
+    background-image: url("../../arora assets/web bg.jpg");
+    object-fit: cover;
+}
+
+
+.textCon{
+    margin-left: 4rem;
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 80vh;
+    width: 32rem;
+}
+.conbtn{
+    height: 3.3rem;
+    width: 9rem;
+    border-radius: 15px;
+    padding: 0rem;
+    background-color: #d211ede3;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 1.rem;
+    cursor: pointer;
+    
+}
+.conbtn:hover{
+    background-color: aliceblue;
+    transition: 2s;
+    color:black;
+}
+
+* ::-webkit-scrollbar {
+        display: none;
+    
+}
+.h1S{
+    
+    font-weight: 400;
+    font-size:clamp(50px,4rem,100px);
+    width:93%
+
+}
+.h1S span{
+    background-image: linear-gradient(134.1468463819801deg, #ce02e9,  #ffc038);
+  ;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  max-width: max-content;
+}
+@media  (max-width:1000px){
+    .textCon{
+       
+       
+        
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-around;
+        height: 49vh;
+        width: 100%;
+        }
+    
+    
+    .caraContaner{
+      
+       height: 100vh;  
+       width: 100vw;      
+         display: flex;
+         flex-direction:column;
+         justify-content: center;
+         align-items: center;
+         padding: 1rem;
+         z-index: 44;
+         background-image: url("../../arora assets/web bg.jpg");
+         object-fit: cover;
+     }
+     
+    .image1,.image2,.image3{
+        height: 50vh;
+        width: 90vW;
+        border: 0.8rem solid transparent;
+        border-radius: 34px;
+        background-image: linear-gradient(45deg, rgba(113, 199, 233, 0.76), rgba(255, 0, 55, 0.925));
+        background-origin: border-box, padding-box, padding-box;
+        background-clip: border-box, padding-box, border-box;
+        margin: 0;
+
+    }
+    .imageContener{
+   display: flex;
+   justify-content: center;
+    }
+    .h1S{
+    
+        font-weight: 500;
+        font-size: 3rem;
+        width:100%
+    
+    }
+}
+@media  (min-width:1000px){
+    /* .textCon{
+       
+       
+        
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-around;
+        height: 50vh;
+        width: 100%;
+        } */
+
+}
